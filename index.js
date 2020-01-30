@@ -25,7 +25,7 @@ function checkNameAndEmailExistsInRequestBody(req, res, next) {
 
 };
 
-users = [{ name: 'Caio', email: 'caio_proft@hotmail.com' }, { name: 'Felipe', email: 'felipesartori@hotmail.com' }];
+users = [{ name: 'Charles', email: 'charles@email.com' }, { name: 'Jackson', email: 'jacskon@email.com' }];
 
 server.get('/users', (req, res) => {
 
